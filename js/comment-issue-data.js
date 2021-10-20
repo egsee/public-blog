@@ -1,6 +1,6 @@
-// 评论issues仓库 by.removeif https://removeif.github.io/
-var repoIssuesUrl = "https://api.github.com/repos/removeif/blog_comment/issues";
-// 对应仓库 clientId、clientSecret 关于这两个参数的安全问题，查看 https://removeif.github.io/2019/09/19/博客源码分享.html#1-热门推荐，最新评论：
+// 评论issues仓库 by.egsee https://egsee.github.io/
+var repoIssuesUrl = "https://api.github.com/repos/egsee/blog_comment/issues";
+// 对应仓库 clientId、clientSecret 关于这两个参数的安全问题，查看 https://egsee.github.io/2019/09/19/博客源码分享.html#1-热门推荐，最新评论：
 var clientId = "46a9f3481b46ea0129d8";
 var clientSecret = "79c7c9cb847e141757d7864453bcbf89f0655b24";
 var authorizationToken = 'Basic ' + btoa(clientId + ':' + clientSecret);
@@ -10,7 +10,7 @@ var reqCommentCountUrl = repoIssuesUrl + "?t=" + new Date().getTime() + "&labels
 var COMMENT_CACHE_KEY = "commentKey";
 
 // 管理员名称,评论时添加 [博主] 后缀
-var ADMIN_NAME = "removeif";
+var ADMIN_NAME = "egsee";
 
 function ajaxReqForGitHub(url,call) {
     $.ajax({
@@ -243,7 +243,7 @@ $(document).ready(setTimeout(function () { // 延迟1s执行，保证其余的�
         // console.clear();
         // console.log("~~~~xiu xiu xiu 欢迎光临~~~");
         // console.log("~~~~唉，控制台太多报错了，呜呜呜呜~~~");
-        // console.log("~~~~记得有时间多来看看哦，https://removeif.github.io/")
+        // console.log("~~~~记得有时间多来看看哦，https://egsee.github.io/")
     }
     ,
     500

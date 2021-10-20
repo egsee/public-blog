@@ -1,5 +1,5 @@
 // author by removef
-// https://removeif.github.io/
+// https://egsee.github.io/
 
 // var isNight = localStorage.getExpire('night');
 var isNight = false;
