@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小番茄BLOG</title>
+  <title>EGSEE</title>
   
   <subtitle>SmallHouse</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/public-blog/atom.xml" rel="self"/>
   
-  <link href="https://tot.github.io/"/>
+  <link href="https://egsee.github.io/"/>
   <updated>2021-10-20T09:06:25.000Z</updated>
-  <id>https://tot.github.io/</id>
+  <id>https://egsee.github.io/</id>
   
   <author>
-    <name>小番茄</name>
+    <name>egsee</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>memset替换字符串的注意点</title>
-    <link href="https://tot.github.io/posts/d8689c7b/"/>
-    <id>https://tot.github.io/posts/d8689c7b/</id>
+    <link href="https://egsee.github.io/posts/d8689c7b/"/>
+    <id>https://egsee.github.io/posts/d8689c7b/</id>
     <published>2020-10-17T11:13:16.000Z</published>
     <updated>2021-10-20T09:06:25.000Z</updated>
     
@@ -43,19 +43,19 @@
     </summary>
     
     
-      <category term="后端" scheme="https://tot.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https://egsee.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="c/c++" scheme="https://tot.github.io/tags/c-c/"/>
+      <category term="c/c++" scheme="https://egsee.github.io/tags/c-c/"/>
     
-      <category term="内存" scheme="https://tot.github.io/tags/%E5%86%85%E5%AD%98/"/>
+      <category term="内存" scheme="https://egsee.github.io/tags/%E5%86%85%E5%AD%98/"/>
     
   </entry>
   
   <entry>
     <title>nodejs垃圾回收</title>
-    <link href="https://tot.github.io/posts/e0a6bc82/"/>
-    <id>https://tot.github.io/posts/e0a6bc82/</id>
+    <link href="https://egsee.github.io/posts/e0a6bc82/"/>
+    <id>https://egsee.github.io/posts/e0a6bc82/</id>
     <published>2020-09-17T11:13:16.000Z</published>
     <updated>2021-10-20T08:56:13.000Z</updated>
     
@@ -75,19 +75,19 @@
     </summary>
     
     
-      <category term="后端" scheme="https://tot.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https://egsee.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="nodejs" scheme="https://tot.github.io/tags/nodejs/"/>
+      <category term="nodejs" scheme="https://egsee.github.io/tags/nodejs/"/>
     
-      <category term="GC" scheme="https://tot.github.io/tags/GC/"/>
+      <category term="GC" scheme="https://egsee.github.io/tags/GC/"/>
     
   </entry>
   
   <entry>
     <title>C内存分配</title>
-    <link href="https://tot.github.io/posts/a1501c1d/"/>
-    <id>https://tot.github.io/posts/a1501c1d/</id>
+    <link href="https://egsee.github.io/posts/a1501c1d/"/>
+    <id>https://egsee.github.io/posts/a1501c1d/</id>
     <published>2020-09-17T11:13:16.000Z</published>
     <updated>2021-10-20T09:04:54.000Z</updated>
     
@@ -104,17 +104,17 @@
     </summary>
     
     
-      <category term="后端" scheme="https://tot.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https://egsee.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="c/c++ 内存" scheme="https://tot.github.io/tags/c-c-%E5%86%85%E5%AD%98/"/>
+      <category term="c/c++ 内存" scheme="https://egsee.github.io/tags/c-c-%E5%86%85%E5%AD%98/"/>
     
   </entry>
   
   <entry>
     <title>加密文章测试</title>
-    <link href="https://tot.github.io/posts/7e709353/"/>
-    <id>https://tot.github.io/posts/7e709353/</id>
+    <link href="https://egsee.github.io/posts/7e709353/"/>
+    <id>https://egsee.github.io/posts/7e709353/</id>
     <published>2020-01-21T02:14:11.000Z</published>
     <updated>2021-10-19T02:46:52.474Z</updated>
     
@@ -127,17 +127,17 @@
     </summary>
     
     
-      <category term="私密" scheme="https://tot.github.io/categories/%E7%A7%81%E5%AF%86/"/>
+      <category term="私密" scheme="https://egsee.github.io/categories/%E7%A7%81%E5%AF%86/"/>
     
     
-      <category term="加密文章" scheme="https://tot.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
+      <category term="加密文章" scheme="https://egsee.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
   <entry>
     <title>Gan</title>
-    <link href="https://tot.github.io/posts/7e709353/"/>
-    <id>https://tot.github.io/posts/7e709353/</id>
+    <link href="https://egsee.github.io/posts/7e709353/"/>
+    <id>https://egsee.github.io/posts/7e709353/</id>
     <published>2020-01-21T02:14:11.000Z</published>
     <updated>2021-10-19T06:12:56.790Z</updated>
     
@@ -150,17 +150,17 @@
     </summary>
     
     
-      <category term="私密" scheme="https://tot.github.io/categories/%E7%A7%81%E5%AF%86/"/>
+      <category term="私密" scheme="https://egsee.github.io/categories/%E7%A7%81%E5%AF%86/"/>
     
     
-      <category term="加密文章" scheme="https://tot.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
+      <category term="加密文章" scheme="https://egsee.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
   <entry>
     <title>github Issue 作为博客微型数据库的应用</title>
-    <link href="https://tot.github.io/posts/e7fe3cc/"/>
-    <id>https://tot.github.io/posts/e7fe3cc/</id>
+    <link href="https://egsee.github.io/posts/e7fe3cc/"/>
+    <id>https://egsee.github.io/posts/e7fe3cc/</id>
     <published>2019-11-28T14:02:05.000Z</published>
     <updated>2021-10-15T03:15:16.639Z</updated>
     
@@ -174,19 +174,19 @@
     </summary>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
-      <category term="主题工具" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
+      <category term="主题工具" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>github page网站cdn优化加速</title>
-    <link href="https://tot.github.io/posts/346ce02e/"/>
-    <id>https://tot.github.io/posts/346ce02e/</id>
+    <link href="https://egsee.github.io/posts/346ce02e/"/>
+    <id>https://egsee.github.io/posts/346ce02e/</id>
     <published>2019-09-25T08:41:46.000Z</published>
     <updated>2021-10-15T03:15:16.639Z</updated>
     
@@ -200,19 +200,19 @@
     </summary>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
-      <category term="主题工具" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
+      <category term="主题工具" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>博客换肤的一种实现方式思路</title>
-    <link href="https://tot.github.io/posts/1c5449cf/"/>
-    <id>https://tot.github.io/posts/1c5449cf/</id>
+    <link href="https://egsee.github.io/posts/1c5449cf/"/>
+    <id>https://egsee.github.io/posts/1c5449cf/</id>
     <published>2019-09-17T11:13:16.000Z</published>
     <updated>2021-10-18T06:36:49.691Z</updated>
     
@@ -227,19 +227,19 @@
     </summary>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
-      <category term="主题工具" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
+      <category term="主题工具" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>博客中gitalk最新评论的获取</title>
-    <link href="https://tot.github.io/posts/47c45f64/"/>
-    <id>https://tot.github.io/posts/47c45f64/</id>
+    <link href="https://egsee.github.io/posts/47c45f64/"/>
+    <id>https://egsee.github.io/posts/47c45f64/</id>
     <published>2019-09-12T17:03:06.000Z</published>
     <updated>2021-10-15T03:15:16.639Z</updated>
     
@@ -254,21 +254,21 @@
     </summary>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
-      <category term="主题工具" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
+      <category term="主题工具" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="icarus主题配置" scheme="https://tot.github.io/tags/icarus%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+      <category term="icarus主题配置" scheme="https://egsee.github.io/tags/icarus%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
-      <category term="hexo主题" scheme="https://tot.github.io/tags/hexo%E4%B8%BB%E9%A2%98/"/>
+      <category term="hexo主题" scheme="https://egsee.github.io/tags/hexo%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>博客图片上传picgo工具github图传使用</title>
-    <link href="https://tot.github.io/posts/9e7c733f/"/>
-    <id>https://tot.github.io/posts/9e7c733f/</id>
+    <link href="https://egsee.github.io/posts/9e7c733f/"/>
+    <id>https://egsee.github.io/posts/9e7c733f/</id>
     <published>2019-06-20T09:31:57.000Z</published>
     <updated>2021-10-15T03:15:16.639Z</updated>
     
@@ -283,12 +283,12 @@
     </summary>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
-      <category term="主题工具" scheme="https://tot.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
+      <category term="主题工具" scheme="https://egsee.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="工具教程" scheme="https://tot.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+      <category term="工具教程" scheme="https://egsee.github.io/tags/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
