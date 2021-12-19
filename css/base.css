@@ -11473,6 +11473,9 @@ hr {
 .night .has-text-grey {
   color: #c0c0c0 !important;
 }
+.night .has-text-light {
+  color: #fff !important;
+}
 .night .has-link-black-ter {
   color: #3273dc !important;
 }
