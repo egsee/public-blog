@@ -2,7 +2,7 @@
  * Insight search plugin
  * @author PPOffice { @link https://github.com/ppoffice }
  */
- (function($, CONFIG) {
+(function($, CONFIG) {
     const $main = $('.ins-search');
     const $input = $main.find('.ins-search-input');
     const $wrapper = $main.find('.ins-section-wrapper');
@@ -63,27 +63,21 @@
      */
     function filter(keywords, obj, fields) {
         const keywordArray = parseKeywords(keywords);
-        // console.log('keywords array', keywordArray)
-        // console.log('fields', fields)
         const containKeywords = keywordArray.filter(keyword => {
             const containFields = fields.filter(field => {
-                // json对象没有指定字段 return false
                 if (!Object.prototype.hasOwnProperty.call(obj, field)) {
                     return false;
                 }
-                // json对象的指定字段值包含关键词 return true
                 if (obj[field].toUpperCase().indexOf(keyword) > -1) {
                     return true;
                 }
                 return false;
             });
-            console.log('containFields', containFields)
             if (containFields.length > 0) {
                 return true;
             }
             return false;
         });
-        // keywords字段数量在给定的fields内容中全部找到匹配后才满足搜索
         return containKeywords.length === keywordArray.length;
     }
 
@@ -109,7 +103,6 @@
      * @param Object            obj     Object to be weighted
      * @param Array<String>     fields  Object's fields to find matches
      * @param Array<Integer>    weights Weight of every field
-     * 权值排序
      */
     function weight(keywords, obj, fields, weights) {
         let value = 0;
@@ -128,7 +121,6 @@
     function weightFactory(keywords) {
         return {
             post: function(obj) {
-                // title权重3 text权重1
                 return weight(keywords, obj, ['title', 'text'], [3, 1]);
             },
             page: function(obj) {
@@ -146,13 +138,13 @@
     function search(json, keywords) {
         const weights = weightFactory(keywords);
         const filters = filterFactory(keywords);
-        const posts = json.posts.reverse();
-        // const pages = json.pages;
+        const posts = json.posts;
+        const pages = json.pages;
         const tags = json.tags;
         const categories = json.categories;
         return {
             posts: posts.filter(filters.post).sort((a, b) => { return weights.post(b) - weights.post(a); }).slice(0, 5),
-            // pages: pages.filter(filters.page).sort((a, b) => { return weights.page(b) - weights.page(a); }).slice(0, 5),
+            pages: pages.filter(filters.page).sort((a, b) => { return weights.page(b) - weights.page(a); }).slice(0, 5),
             categories: categories.filter(filters.category).sort((a, b) => { return weights.category(b) - weights.category(a); }).slice(0, 5),
             tags: tags.filter(filters.tag).sort((a, b) => { return weights.tag(b) - weights.tag(a); }).slice(0, 5)
         };
